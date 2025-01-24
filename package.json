@@ -6,7 +6,9 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/cron": "^1.2.0",
+    "elysia": "latest",
+    "node-html-parser": "^7.0.1"
   },
   "devDependencies": {
     "bun-types": "latest"
